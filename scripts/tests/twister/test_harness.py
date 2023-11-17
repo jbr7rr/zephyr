@@ -21,11 +21,11 @@ GTEST_START_STATE = " RUN      "
 GTEST_PASS_STATE = "       OK "
 GTEST_FAIL_STATE = "  FAILED  "
 SAMPLE_GTEST_START = (
-    "[00:00:00.000,000] [0m<inf> label:  [==========] Running all tests.[0m"
+    "[00:00:00.000,000] \x1b[0m<inf> label:  [==========] Running all tests.\x1b[0m"
 )
-SAMPLE_GTEST_FMT = "[00:00:00.000,000] [0m<inf> label:  [{state}] {suite}.{test}[0m"
+SAMPLE_GTEST_FMT = "[00:00:00.000,000] \x1b[0m<inf> label:  [{state}] {suite}.{test}\x1b[0m"
 SAMPLE_GTEST_END = (
-    "[00:00:00.000,000] [0m<inf> label:  [==========] Done running all tests.[0m"
+    "[00:00:00.000,000] \x1b[0m<inf> label:  [==========] 2 tests from 1 test suite ran. (0 ms total)\x1b[0m"
 )
 
 
